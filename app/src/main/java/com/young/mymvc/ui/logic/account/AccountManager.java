@@ -38,11 +38,6 @@ public class AccountManager extends BaseLogicManager implements IAccountManager{
                 if (callback != null) {
                     callback.onSuccess();
                 }
-
-//                if (mAccountInfo != null && mAccountInfo.getmGrade() == 4)
-//                {
-//                    SearchHouseManager.shareInstance().transferProjectId(mAccountInfo.getmOrgId(), null);
-//                }
             }
 
             @Override
